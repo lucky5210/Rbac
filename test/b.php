@@ -12,4 +12,4 @@ require_once '../vendor/autoload.php';
 use Tp6rbac\a;
 
 $aa=new a();
-echo $aa->index(1,2);
+echo $aa->index(2,1);
