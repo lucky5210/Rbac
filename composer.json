@@ -1,0 +1,24 @@
+{
+    "name": "tp6rbac/rbac",
+    "description": "tp6权限控制",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smile",
+            "email": "285387316@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tp6rbac\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
