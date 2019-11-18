@@ -1,24 +1,24 @@
 {
-    "name": "tp6rbac/rbac",
-    "description": "tp6权限控制",
-    "type": "library",
-    "require": {
-        "php": ">=7.2.0"
-    },
-    "require-dev": {
-        "php": "^7.3"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "smile",
-            "email": "285387316@qq.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Tp6rbac\\": "src/"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "mfcad/tp6-rbac",
+  "description": "这个扩展是基于thinkPHP6框架的RBAC权限验证的扩展。使用本扩展能够快速的将RBAC权限控制器模块引入到自己的系统中。原则上本模块适合于任何PHP框架但是由于使用了thinkPHP6的特性所以使用composer安装到其他框架时需要做相应的修改。",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "require-dev": {
+    "php": "^7.3"
+  },
+  "authors": [
+    {
+      "name": "smile",
+      "email": "285387316@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "mfcad\\rbac\\": "src/"
+    }
+  }
 }
