@@ -6,7 +6,7 @@
 打开命令行工具切换到你的tp6项目根目录
 
 ```
-composer require gmars/tp5-rbac
+composer require mfcad/tp6-rbac
 ```
 如果该方法报错请按照以下方式操作：
 
